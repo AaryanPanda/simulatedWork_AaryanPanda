@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0e5d8;
+    color: #4a3f35;
+    text-align: center;
+}
+
+.game-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #8b5e34;
+    border-radius: 10px;
+    background-color: #fff5e1;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.score-time-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #8b5e34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6f4726;
+}
+
+.grid {
+    width: 306px; /* Adjusted to smaller size */
+    height: 306px; /* Adjusted to smaller size */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 2px solid #8b5e34;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.square {
+    height: 100px; /* Adjusted to smaller size */
+    width: 100px; /* Adjusted to smaller size */
+    border: 1px solid #8b5e34;
+    background-color: #edd9c7;
+    position: relative;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #e6cfba;
+}
+
+.mole {
+    background-image: url('./assets/Mole.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
