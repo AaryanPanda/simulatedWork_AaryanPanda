@@ -48,8 +48,8 @@ button:hover {
 }
 
 .grid {
-    width: 306px; /* Adjusted to smaller size */
-    height: 306px; /* Adjusted to smaller size */
+    width: 306px; 
+    height: 306px; 
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -59,8 +59,8 @@ button:hover {
 }
 
 .square {
-    height: 100px; /* Adjusted to smaller size */
-    width: 100px; /* Adjusted to smaller size */
+    height: 100px; 
+    width: 100px; 
     border: 1px solid #8b5e34;
     background-color: #edd9c7;
     position: relative;
