@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fff0f5 0%, #fff9e6 100%);
+    font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 15px;
+}
+
+.title {
+    color: #f4718f;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(255,133,162,0.2);
+    margin-bottom: 15px;
+}
+
+.game-info {
+    margin: 15px 0;
+}
+
+.current-player {
+    color: #5a5a5a;
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.current-player span {
+    /* margin-top: 2px; */
+    color: black;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.result-message {
+    color: #f7875e;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.46);
+    font-weight: 900;
+    margin: 12px 0;
+    min-height: 24px;
+}
+
+.grid {
+    background-color: #ffd9d9;
+    border: 3px solid #f899a3;
+    border-radius: 8px;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: flex-start; 
+    padding: 8px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+    margin: 0 auto; 
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    margin: 4px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.9);
+    transition: all 0.3s ease;
+}
+
+.grid div.taken {
+    background-color: transparent;
+}
+
+.player-one {
+    background-color: #e8371f !important;
+    box-shadow: inset 0 0 12px rgba(0,0,0,0.1);
+}
+
+.player-two {
+    background-color: #ebaa14 !important;
+    box-shadow: inset 0 0 12px rgba(0,0,0,0.1);
+}
+
+.reset-btn {
+    background-color: #ff8995;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.reset-btn:hover {
+    background-color: #ff6877;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.12);
+}
+
+.instruction {
+    color: #7a6f6f;
+    font-size: 0.9em;
+    margin: 12px 0;
+    font-style: italic;
+}
+
+.always-taken {
+    background-color: transparent;
+}
